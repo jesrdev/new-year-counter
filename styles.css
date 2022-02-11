@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;300;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url("./images/snow.jpeg");
+  background-size: cover;
+  background-position: bottom right;
+  position: relative;
+}
+
+h1 {
+  font-family: "Moon Dance", cursive;
+  font-size: 5em;
+  font-weight: bolder;
+  text-align: center;
+  color: darkgoldenrod;
+}
+
+.counter {
+  position: absolute;
+  width: 700px;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.counter-element {
+  width: 130px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.counter-data {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counter-number {
+  font-family: "Arima Madurai", cursive;
+  text-align: center;
+  font-size: 5em;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.counter-mag {
+  font-family: "Arima Madurai", cursive;
+}
